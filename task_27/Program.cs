@@ -7,7 +7,7 @@ int GetSumNumberChar(int number)
 
     for (int i = 0; i < numberString.Length; i++)
     {
-       sum += Convert.ToInt32(numberString[i].ToString());
+        sum += Convert.ToInt32(numberString[i].ToString());
     }
 
     return sum;
